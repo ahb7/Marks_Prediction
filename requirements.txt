@@ -1,7 +1,6 @@
 Flask 
 gunicorn==20.1.0
 matplotlib 
-mkl-service==2.4.0
 numpy 
 pandas
 requests 
