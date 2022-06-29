@@ -30,6 +30,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
 def hello():
+    marks_pred = 0
     if request.method == "POST":
         hrs = request.form["hours"]
         marks_pred = marks_prediction(hrs)
